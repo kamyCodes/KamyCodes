@@ -6,6 +6,20 @@
 
 <br>
 
+<p align="center">
+  <svg xmlns="http://www.w3.org/2000/svg" width="640" height="120" viewBox="0 0 640 120" role="img" aria-label="KamyCodes banner">
+    <rect x="0.5" y="0.5" width="639" height="119" rx="14" ry="14" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <rect x="0.5" y="0.5" width="6" height="119" rx="3" ry="3" fill="#4bd652"/>
+    <text x="24" y="52" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#4bd652" letter-spacing="0.5">KamyCodes</text>
+    <text x="24" y="78" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e" letter-spacing="0.4">
+      Code, Learn, Build, Repeat.
+    </text>
+    <text x="24" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#484f58">aspiring software engineer &middot; react &middot; node &middot; python &middot; mongodb</text>
+  </svg>
+</p>
+
+<br>
+
 <h1 align="center">
   <span style="color:#58a6ff">Hey There!, I am </span><span style="color:#4bd652">Kamy</span>
 </h1>
@@ -102,7 +116,7 @@
   <br><br>
   <a href="https://github.com/kamyCodes/Port-folio" target="_blank">Port-folio</a>
   <br>
-  A personal portfolio project showcasing work and projects.
+  A portfolio project built with React, TypeScript, and Vite.
   <br><br>
   <img src="https://img.shields.io/github/stars/kamyCodes/Port-folio?style=flat&logo=github&color=4bd652&label=stars&colorA=4bd652&colorB=4bd652" alt="stars">
   &nbsp;
@@ -119,7 +133,7 @@
   <br><br>
   <a href="https://github.com/kamyCodes/Candid" target="_blank">Candid</a>
   <br>
-  A candid project exploring real-world application development.
+  A local-first hiring pipeline — every candidate, note, and rating stays in your browser. One person, one tab, six stages, no server.
   <br><br>
   <img src="https://img.shields.io/github/stars/kamyCodes/Candid?style=flat&logo=github&color=4bd652&label=stars&colorA=4bd652&colorB=4bd652" alt="stars">
   &nbsp;
@@ -136,7 +150,7 @@
   <br><br>
   <a href="https://github.com/kamyCodes/Quizzly" target="_blank">Quizzly</a>
   <br>
-  A quiz-style application for learning and engagement.
+  An AI-powered knowledge check — generate, play, and master any topic with Groq AI (Llama 3.3 70B). React Native + Expo, Express.js backend.
   <br><br>
   <img src="https://img.shields.io/github/stars/kamyCodes/Quizzly?style=flat&logo=github&color=4bd652&label=stars&colorA=4bd652&colorB=4bd652" alt="stars">
   &nbsp;
@@ -153,7 +167,7 @@
   <br><br>
   <a href="https://github.com/kamyCodes/Local-Job-Connect" target="_blank">Local-Job-Connect</a>
   <br>
-  A local job connection platform for finding opportunities nearby.
+  A neighborhood job ecosystem — matching local businesses with nearby talent using geodesic distance calculations, built with Flask, Python, and SQLite.
   <br><br>
   <img src="https://img.shields.io/github/stars/kamyCodes/Local-Job-Connect?style=flat&logo=github&color=4bd652&label=stars&colorA=4bd652&colorB=4bd652" alt="stars">
   &nbsp;
