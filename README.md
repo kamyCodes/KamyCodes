@@ -1,201 +1,166 @@
+<!--
+  Kamy Ewang — GitHub profile README
+  Design: modular "bento" grid. Header banner → intro → About → Toolbox → Projects → Stats.
+  Brand: #4bd652 on #0d1117 (matches kamy.name.ng).
+  Banner: banner.svg / banner-light.svg live in this repo (no third-party host), swapped by
+  <picture> + prefers-color-scheme so the header adapts to GitHub's light/dark theme.
+  House rule: keep the rows of each table on consecutive lines. A blank line inside a table makes
+  GitHub stop treating the block as raw HTML, which breaks the grid — use <br> or <p> for spacing.
+-->
+
 <p align="center">
-  <a href="https://github.com/kamyCodes" target="_blank">
-    <img src="https://img.shields.io/badge/link-4bd652?style=flat&logo=link&logoColor=white" alt="link">
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="banner.svg">
+    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg">
+    <img src="banner.svg" alt="KamyCodes — Code, Learn, Build, Repeat." width="640" />
+  </picture>
 </p>
 
-<br>
+<h1 align="center">Kamy Ewang</h1>
 
 <p align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" width="640" height="120" viewBox="0 0 640 120" role="img" aria-label="KamyCodes banner">
-    <rect x="0.5" y="0.5" width="639" height="119" rx="14" ry="14" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-    <rect x="0.5" y="0.5" width="6" height="119" rx="3" ry="3" fill="#4bd652"/>
-    <text x="24" y="52" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#4bd652" letter-spacing="0.5">KamyCodes</text>
-    <text x="24" y="78" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e" letter-spacing="0.4">
-      Code, Learn, Build, Repeat.
-    </text>
-    <text x="24" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#484f58">aspiring software engineer &middot; react &middot; node &middot; python &middot; mongodb</text>
-  </svg>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=4BD652&center=true&vCenter=true&width=680&height=45&lines=Full-stack+engineer+building+AI-powered+products;React+%C2%B7+Next.js+%C2%B7+Python+%C2%B7+Flask+%C2%B7+Node.js;Learning+to+build+things+that+last" alt="Full-stack engineer building AI-powered products · React · Next.js · Python · Flask · Node.js · Learning to build things that last" width="680" />
 </p>
 
-<br>
-
-<h1 align="center">
-  <span style="color:#58a6ff">Hey There!, I am </span><span style="color:#4bd652">Kamy</span>
-</h1>
-
 <p align="center">
-  [ <a href="https://www.kamy.name.ng" target="_blank">Google Me</a> ]<br>
-  [ I am an aspiring software engineer learning to build things that last ]
+  <a href="https://www.kamy.name.ng" target="_blank"><img src="https://img.shields.io/badge/Website-kamy.name.ng-4bd652?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="mailto:ewangkamy@gmail.com"><img src="https://img.shields.io/badge/Email-ewangkamy%40gmail.com-4bd652?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/kamyCodes" target="_blank"><img src="https://img.shields.io/github/followers/kamyCodes?style=for-the-badge&label=Followers&color=4bd652&labelColor=0d1117&logo=github&logoColor=white" alt="GitHub followers" /></a>
+  <img src="https://komarev.com/ghpvc/?username=kamyCodes&label=Views&color=4bd652&style=for-the-badge" alt="Profile views" />
 </p>
 
-<br>
+<h2 align="center">🧭 About</h2>
 
-<p align="center">
-  <!-- JavaScript -->
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://img.shields.io/badge/JS-JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=F7DF1E&color=black&colorA=F7DF1E&colorB=F7DF1E" alt="JavaScript">
-  </a>
-  <!-- TypeScript -->
-  <a href="https://www.typescriptlang.org/" target="_blank">
-    <img src="https://img.shields.io/badge/TS-TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=3178C6&color=white&colorA=3178C6&colorB=3178C6" alt="TypeScript">
-  </a>
-  <!-- React -->
-  <a href="https://react.dev/" target="_blank">
-    <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=20232A&color=61DAFB&colorA=20232A&colorB=20232A" alt="React">
-  </a>
-  <!-- Node.js -->
-  <a href="https://nodejs.org/" target="_blank">
-    <img src="https://img.shields.io/badge/NODEJS-339933?style=for-the-badge&logo=node.js&logoColor=white&labelColor=339933&color=white&colorA=339933&colorB=339933" alt="Node.js">
-  </a>
-  <!-- Express.js -->
-  <a href="https://expressjs.com/" target="_blank">
-    <img src="https://img.shields.io/badge/EXPRESS.JS-000000?style=for-the-badge&logo=express&logoColor=white&labelColor=000000&color=white&colorA=000000&colorB=000000" alt="Express.js">
-  </a>
-  <!-- MongoDB -->
-  <a href="https://www.mongodb.com/" target="_blank">
-    <img src="https://img.shields.io/badge/MONGODB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=47A248&color=white&colorA=47A248&colorB=47A248" alt="MongoDB">
-  </a>
-  <!-- Tailwind CSS -->
-  <a href="https://tailwindcss.com/" target="_blank">
-    <img src="https://img.shields.io/badge/TAILWIND_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white&labelColor=06B6D4&color=white&colorA=06B6D4&colorB=06B6D4" alt="Tailwind CSS">
-  </a>
-  <!-- Python -->
-  <a href="https://www.python.org/" target="_blank">
-    <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=3776AB&color=white&colorA=3776AB&colorB=3776AB" alt="Python">
-  </a>
-  <!-- Flask -->
-  <a href="https://flask.palletsprojects.com/" target="_blank">
-    <img src="https://img.shields.io/badge/FLASK-000000?style=for-the-badge&logo=flask&logoColor=white&labelColor=000000&color=white&colorA=000000&colorB=000000" alt="Flask">
-  </a>
-  <!-- SQL -->
-  <a href="https://www.sql.org/" target="_blank">
-    <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=4479A1&color=white&colorA=4479A1&colorB=4479A1" alt="SQL">
-  </a>
-  <!-- SQLite -->
-  <a href="https://sqlite.org/" target="_blank">
-    <img src="https://img.shields.io/badge/SQLITE-003B57?style=for-the-badge&logo=sqlite&logoColor=white&labelColor=003B57&color=white&colorA=003B57&colorB=003B57" alt="SQLite">
-  </a>
-  <!-- Git -->
-  <a href="https://git-scm.com/" target="_blank">
-    <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=F05032&color=white&colorA=F05032&colorB=F05032" alt="Git">
-  </a>
-  <!-- Visual Studio Code -->
-  <a href="https://code.visualstudio.com/" target="_blank">
-    <img src="https://img.shields.io/badge/VISUAL_STUDIO_CODE-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&labelColor=007ACC&color=white&colorA=007ACC&colorB=007ACC" alt="Visual Studio Code">
-  </a>
+<table width="100%">
+<tr>
+<td width="55%" valign="top">
+<h3>Who I am</h3>
+<p>I'm <strong>Kamy Ewang</strong>, a software engineer based in <strong>Uyo, Nigeria</strong>. I build AI-powered full-stack applications and real-time platforms — React and Next.js on the front end, Python / Flask or Node.js behind it.</p>
+<p>I care about the unglamorous parts that make software last: data that stays honest, errors that explain themselves, and interfaces nobody needs a manual for. Candid keeps every candidate in the browser; Quizzly generates its own questions on demand.</p>
+</td>
+<td width="45%" valign="top">
+<h3>Right now</h3>
+<ul>
+<li>Building <strong>Candid</strong> — a local-first hiring pipeline in React + TypeScript.</li>
+<li>Building <strong>Quizzly</strong> — AI-generated knowledge checks powered by Groq (Llama 3.3 70B), React Native + Expo.</li>
+<li>Writing and sharing what I learn at <a href="https://www.kamy.name.ng" target="_blank">kamy.name.ng</a>.</li>
+</ul>
+</td>
+</tr>
+</table>
+
+<h2 align="center">🛠️ Toolbox</h2>
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<h3>Languages</h3>
+<p>
+<img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge" alt="SQL" />
 </p>
-
-<br>
-
-<hr>
-
-<br>
-
-## Tech Stack
-
-- **Frontend:** React.js, JavaScript, HTML, CSS, Tailwind CSS
-- **Backend:** Node.js, Express.js, Python (Flask), MongoDB
-- **Database:** SQLite, SQL Server, MongoDB
-- **Tools:** Git, GitHub, VS Code, SSMS
-
-<br>
-
-<hr>
-
-<br>
-
-## Featured Projects
-
-<br>
-
-<p align="center">
-  <a href="https://github.com/kamyCodes/Port-folio" target="_blank">
-    <img src="https://img.shields.io/badge/PORT-FOLIO-4bd652?style=for-the-badge&logo=github&logoColor=white&labelColor=4bd652&color=white&colorA=4bd652&colorB=4bd652" alt="Port-folio">
-  </a>
-  <br><br>
-  <a href="https://github.com/kamyCodes/Port-folio" target="_blank">Port-folio</a>
-  <br>
-  A portfolio project built with React, TypeScript, and Vite.
-  <br><br>
-  <img src="https://img.shields.io/github/stars/kamyCodes/Port-folio?style=flat&logo=github&color=4bd652&label=stars&colorA=4bd652&colorB=4bd652" alt="stars">
-  &nbsp;
-  <img src="https://img.shields.io/github/forks/kamyCodes/Port-folio?style=flat&logo=github&color=4bd652&label=forks&colorA=4bd652&colorB=4bd652" alt="forks">
+</td>
+<td width="50%" valign="top">
+<h3>Frontend</h3>
+<p>
+<img src="https://img.shields.io/badge/-React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+<img src="https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
 </p>
-
-<br>
-<br>
-
-<p align="center">
-  <a href="https://github.com/kamyCodes/Candid" target="_blank">
-    <img src="https://img.shields.io/badge/CANDID-4bd652?style=for-the-badge&logo=github&logoColor=white&labelColor=4bd652&color=white&colorA=4bd652&colorB=4bd652" alt="Candid">
-  </a>
-  <br><br>
-  <a href="https://github.com/kamyCodes/Candid" target="_blank">Candid</a>
-  <br>
-  A local-first hiring pipeline — every candidate, note, and rating stays in your browser. One person, one tab, six stages, no server.
-  <br><br>
-  <img src="https://img.shields.io/github/stars/kamyCodes/Candid?style=flat&logo=github&color=4bd652&label=stars&colorA=4bd652&colorB=4bd652" alt="stars">
-  &nbsp;
-  <img src="https://img.shields.io/github/forks/kamyCodes/Candid?style=flat&logo=github&color=4bd652&label=forks&colorA=4bd652&colorB=4bd652" alt="forks">
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>Backend &amp; Data</h3>
+<p>
+<img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/-Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+<img src="https://img.shields.io/badge/-Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+<img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+<img src="https://img.shields.io/badge/-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+<img src="https://img.shields.io/badge/-SQL%20Server-CC2927?style=for-the-badge" alt="SQL Server" />
 </p>
-
-<br>
-<br>
-
-<p align="center">
-  <a href="https://github.com/kamyCodes/Quizzly" target="_blank">
-    <img src="https://img.shields.io/badge/QUIZZLY-4bd652?style=for-the-badge&logo=github&logoColor=white&labelColor=4bd652&color=white&colorA=4bd652&colorB=4bd652" alt="Quizzly">
-  </a>
-  <br><br>
-  <a href="https://github.com/kamyCodes/Quizzly" target="_blank">Quizzly</a>
-  <br>
-  An AI-powered knowledge check — generate, play, and master any topic with Groq AI (Llama 3.3 70B). React Native + Expo, Express.js backend.
-  <br><br>
-  <img src="https://img.shields.io/github/stars/kamyCodes/Quizzly?style=flat&logo=github&color=4bd652&label=stars&colorA=4bd652&colorB=4bd652" alt="stars">
-  &nbsp;
-  <img src="https://img.shields.io/github/forks/kamyCodes/Quizzly?style=flat&logo=github&color=4bd652&label=forks&colorA=4bd652&colorB=4bd652" alt="forks">
+</td>
+<td width="50%" valign="top">
+<h3>Tools</h3>
+<p>
+<img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge" alt="Visual Studio Code" />
 </p>
+</td>
+</tr>
+</table>
 
-<br>
-<br>
+<h2 align="center">🚀 Featured Projects</h2>
 
-<p align="center">
-  <a href="https://github.com/kamyCodes/Local-Job-Connect" target="_blank">
-    <img src="https://img.shields.io/badge/LOCAL_JOB_CONNECT-4bd652?style=for-the-badge&logo=github&logoColor=white&labelColor=4bd652&color=white&colorA=4bd652&colorB=4bd652" alt="Local-Job-Connect">
-  </a>
-  <br><br>
-  <a href="https://github.com/kamyCodes/Local-Job-Connect" target="_blank">Local-Job-Connect</a>
-  <br>
-  A neighborhood job ecosystem — matching local businesses with nearby talent using geodesic distance calculations, built with Flask, Python, and SQLite.
-  <br><br>
-  <img src="https://img.shields.io/github/stars/kamyCodes/Local-Job-Connect?style=flat&logo=github&color=4bd652&label=stars&colorA=4bd652&colorB=4bd652" alt="stars">
-  &nbsp;
-  <img src="https://img.shields.io/github/forks/kamyCodes/Local-Job-Connect?style=flat&logo=github&color=4bd652&label=forks&colorA=4bd652&colorB=4bd652" alt="forks">
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/kamyCodes/Candid" target="_blank">Candid</a></h3>
+<p>A local-first hiring pipeline — every candidate, note, and rating stays in your browser. One person, one tab, six stages, no server.</p>
+<p>
+<img src="https://img.shields.io/github/stars/kamyCodes/Candid?style=flat-square&label=stars&color=4bd652&labelColor=0d1117&logo=github&logoColor=white" alt="Candid stars" />
+<img src="https://img.shields.io/github/forks/kamyCodes/Candid?style=flat-square&label=forks&color=4bd652&labelColor=0d1117" alt="Candid forks" />
+<img src="https://img.shields.io/github/last-commit/kamyCodes/Candid?style=flat-square&label=last%20commit&color=4bd652&labelColor=0d1117" alt="Candid last commit" />
 </p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/kamyCodes/Quizzly" target="_blank">Quizzly</a></h3>
+<p>An AI-powered knowledge check — generate, play, and master any topic with Groq AI (Llama 3.3 70B). React Native + Expo, Express.js backend.</p>
+<p>
+<img src="https://img.shields.io/github/stars/kamyCodes/Quizzly?style=flat-square&label=stars&color=4bd652&labelColor=0d1117&logo=github&logoColor=white" alt="Quizzly stars" />
+<img src="https://img.shields.io/github/forks/kamyCodes/Quizzly?style=flat-square&label=forks&color=4bd652&labelColor=0d1117" alt="Quizzly forks" />
+<img src="https://img.shields.io/github/last-commit/kamyCodes/Quizzly?style=flat-square&label=last%20commit&color=4bd652&labelColor=0d1117" alt="Quizzly last commit" />
+</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/kamyCodes/Local-Job-Connect" target="_blank">Local-Job-Connect</a></h3>
+<p>A neighborhood job ecosystem — matching local businesses with nearby talent using geodesic distance calculations, built with Flask, Python, and SQLite.</p>
+<p>
+<img src="https://img.shields.io/github/stars/kamyCodes/Local-Job-Connect?style=flat-square&label=stars&color=4bd652&labelColor=0d1117&logo=github&logoColor=white" alt="Local-Job-Connect stars" />
+<img src="https://img.shields.io/github/forks/kamyCodes/Local-Job-Connect?style=flat-square&label=forks&color=4bd652&labelColor=0d1117" alt="Local-Job-Connect forks" />
+<img src="https://img.shields.io/github/last-commit/kamyCodes/Local-Job-Connect?style=flat-square&label=last%20commit&color=4bd652&labelColor=0d1117" alt="Local-Job-Connect last commit" />
+</p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/kamyCodes/Port-folio" target="_blank">Port-folio</a></h3>
+<p>A portfolio project built with React, TypeScript, and Vite.</p>
+<p>
+<img src="https://img.shields.io/github/stars/kamyCodes/Port-folio?style=flat-square&label=stars&color=4bd652&labelColor=0d1117&logo=github&logoColor=white" alt="Port-folio stars" />
+<img src="https://img.shields.io/github/forks/kamyCodes/Port-folio?style=flat-square&label=forks&color=4bd652&labelColor=0d1117" alt="Port-folio forks" />
+<img src="https://img.shields.io/github/last-commit/kamyCodes/Port-folio?style=flat-square&label=last%20commit&color=4bd652&labelColor=0d1117" alt="Port-folio last commit" />
+</p>
+</td>
+</tr>
+</table>
 
-<br>
+<h2 align="center">📊 GitHub in Numbers</h2>
 
-*(More projects coming soon!)*
-
-<br>
-
-<hr>
-
-<br>
-
-## How to reach me
-
-- GitHub: [github.com/kamyCodes](https://github.com/kamyCodes)
-- Website: [kamy.name.ng](https://www.kamy.name.ng)
-- Email: [ewangkamy@gmail.com](mailto:ewangkamy@gmail.com)
-
-<br>
-
-<hr>
+<table width="100%">
+<tr>
+<td colspan="2" align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kamyCodes&theme=github_dark&bg_color=0d1117&title_color=4bd652&text_color=c9d1d9&icon_color=4bd652&border_color=2e343b" alt="kamyCodes contribution summary" width="100%" />
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="https://streak-stats.demolab.com?user=kamyCodes&hide_border=true&background=0D1117&stroke=4BD652&ring=4BD652&fire=4BD652&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=4BD652&sideLabels=FFFFFF&dates=8B949E" alt="kamyCodes contribution streak" width="100%" />
+</td>
+<td width="50%" align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kamyCodes&theme=github_dark&bg_color=0d1117&title_color=4bd652&text_color=c9d1d9&icon_color=4bd652&border_color=2e343b" alt="kamyCodes repositories per language" width="100%" />
+</td>
+</tr>
+</table>
 
 <br>
 
 <p align="center">
-  <i>"Code, Learn, Build, Repeat."</i>
+  <i>"Code, learn, build, repeat."</i>
+  <br><br>
+  <img src="https://img.shields.io/badge/-Made%20with%20%E2%9A%A1%20by%20Kamy-0d1117?style=for-the-badge" alt="Made with ⚡ by Kamy" />
 </p>
