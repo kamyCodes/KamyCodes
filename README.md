@@ -7,15 +7,11 @@
 <br>
 
 <p align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" width="640" height="120" viewBox="0 0 640 120" role="img" aria-label="KamyCodes banner">
-    <rect x="0.5" y="0.5" width="639" height="119" rx="14" ry="14" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-    <rect x="0.5" y="0.5" width="6" height="119" rx="3" ry="3" fill="#4bd652"/>
-    <text x="24" y="52" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#4bd652" letter-spacing="0.5">KamyCodes</text>
-    <text x="24" y="78" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e" letter-spacing="0.4">
-      Code, Learn, Build, Repeat.
-    </text>
-    <text x="24" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#484f58">aspiring software engineer &middot; react &middot; node &middot; python &middot; mongodb</text>
-  </svg>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="banner.svg">
+    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg">
+    <img src="banner.svg" alt="KamyCodes banner" width="640" style="border-radius:14px;">
+  </picture>
 </p>
 
 <br>

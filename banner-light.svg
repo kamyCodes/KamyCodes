@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="96" viewBox="0 0 640 96" role="img" aria-label="KamyCodes banner (light)">
+  <rect x="0.5" y="0.5" width="639" height="95" rx="14" ry="14" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="6" height="95" rx="3" ry="3" fill="#1f88e5"/>
+  <text x="24" y="46" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#1f88e5" letter-spacing="0.5">KamyCodes</text>
+  <text x="24" y="70" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#57606a" letter-spacing="0.4">Code, Learn, Build, Repeat.</text>
+</svg>
