@@ -25,7 +25,8 @@
 
 <p align="center">
   <a href="https://www.kamy.name.ng" target="_blank"><img src="https://img.shields.io/badge/Website-kamy.name.ng-4bd652?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
-  <a href="mailto:ewangkamy@gmail.com"><img src="https://img.shields.io/badge/Email-ewangkamy%40gmail.com-4bd652?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:ewangkamyomobong@gmail.com"><img src="https://img.shields.io/badge/Email-ewangkamyomobong%40gmail.com-4bd652?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <br>
   <a href="https://github.com/kamyCodes" target="_blank"><img src="https://img.shields.io/github/followers/kamyCodes?style=for-the-badge&label=Followers&color=4bd652&labelColor=0d1117&logo=github&logoColor=white" alt="GitHub followers" /></a>
   <img src="https://komarev.com/ghpvc/?username=kamyCodes&label=Views&color=4bd652&style=for-the-badge" alt="Profile views" />
 </p>
