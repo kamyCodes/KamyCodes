@@ -9,7 +9,8 @@
   The shields.io and komarev badges are opaque and self-contained, so the theme cannot affect them.
   Banner: the header is text-only by design — banner.svg / banner-light.svg are kept in the repo
   but intentionally not referenced.
-  House rule: keep the rows of each table on consecutive lines. A blank line inside a table makes
+  House rules: (1) no emoji anywhere in this file — plain text only, by author preference.
+  (2) keep the rows of each table on consecutive lines. A blank line inside a table makes
   GitHub stop treating the block as raw HTML, which breaks the grid — use br or p for spacing.
 -->
 
@@ -31,7 +32,7 @@
   <img src="https://komarev.com/ghpvc/?username=kamyCodes&label=Views&color=4bd652&style=for-the-badge" alt="Profile views" />
 </p>
 
-<h2 align="center">🧭 About</h2>
+<h2 align="center">About</h2>
 
 <table width="100%">
 <tr>
@@ -51,7 +52,7 @@
 </tr>
 </table>
 
-<h2 align="center">🛠️ Toolbox</h2>
+<h2 align="center">Toolbox</h2>
 
 <table width="100%">
 <tr>
@@ -96,7 +97,7 @@
 </tr>
 </table>
 
-<h2 align="center">🚀 Featured Projects</h2>
+<h2 align="center">Featured Projects</h2>
 
 <table width="100%">
 <tr>
@@ -141,7 +142,7 @@
 </tr>
 </table>
 
-<h2 align="center">📊 GitHub in Numbers</h2>
+<h2 align="center">GitHub in Numbers</h2>
 
 <table width="100%">
 <tr>
@@ -176,5 +177,5 @@
 <p align="center">
   <i>"Code, learn, build, repeat."</i>
   <br><br>
-  <img src="https://img.shields.io/badge/-Made%20with%20%E2%9A%A1%20by%20Kamy-0d1117?style=for-the-badge" alt="Made with ⚡ by Kamy" />
+  <img src="https://img.shields.io/badge/-Made%20by%20Kamy-0d1117?style=for-the-badge" alt="Made by Kamy" />
 </p>
