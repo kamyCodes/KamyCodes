@@ -1,25 +1,17 @@
 <!--
   Kamy Ewang — GitHub profile README
-  Design: modular "bento" grid. Header banner → intro → About → Toolbox → Projects → Stats.
+  Design: modular "bento" grid. Intro → About → Toolbox → Projects → Stats.
   Brand: #4bd652 on #0d1117 (matches kamy.name.ng).
-  Banner: banner.svg / banner-light.svg live in this repo (no third-party host), swapped by
-  <picture> + prefers-color-scheme so the header adapts to GitHub's light/dark theme.
+  Banner: the header is text-only by design — banner.svg / banner-light.svg are kept in the repo
+  but intentionally not referenced, so nothing needs a third-party host or prefers-color-scheme.
   House rule: keep the rows of each table on consecutive lines. A blank line inside a table makes
   GitHub stop treating the block as raw HTML, which breaks the grid — use <br> or <p> for spacing.
 -->
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="banner.svg">
-    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg">
-    <img src="banner.svg" alt="KamyCodes — Code, Learn, Build, Repeat." width="640" />
-  </picture>
-</p>
-
 <h1 align="center">Kamy Ewang</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=4BD652&center=true&vCenter=true&width=680&height=45&lines=Full-stack+engineer+building+AI-powered+products;React+%C2%B7+Next.js+%C2%B7+Python+%C2%B7+Flask+%C2%B7+Node.js;Learning+to+build+things+that+last" alt="Full-stack engineer building AI-powered products · React · Next.js · Python · Flask · Node.js · Learning to build things that last" width="680" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=4BD652&center=true&vCenter=true&width=680&height=45&repeat=false&lines=React+%C2%B7+Next.js+%C2%B7+Python+%C2%B7+Flask+%C2%B7+Node.js;Learning+to+build+things+that+last;Full-stack+engineer+building+AI-powered+products" alt="Full-stack engineer building AI-powered products — React · Next.js · Python · Flask · Node.js · Learning to build things that last" width="680" />
 </p>
 
 <p align="center">
