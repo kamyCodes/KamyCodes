@@ -1,17 +1,26 @@
 <!--
   Kamy Ewang — GitHub profile README
   Design: modular "bento" grid. Intro → About → Toolbox → Projects → Stats.
-  Brand: #4bd652 on #0d1117 (matches kamy.name.ng).
+  Palette: brand green #4bd652 on #0d1117 for dark, GitHub's light green #1a7f37 on #ffffff for
+  light. The brand green only reaches 1.90:1 against white, which fails even the large-text
+  threshold, while #1a7f37 reaches 5.08:1.
+  Theme: the four transparent/dark-backed images (the tagline and the three stat cards) are
+  picture/source pairs switched by prefers-color-scheme, so light-mode readers never get a dark slab.
+  The shields.io and komarev badges are opaque and self-contained, so the theme cannot affect them.
   Banner: the header is text-only by design — banner.svg / banner-light.svg are kept in the repo
-  but intentionally not referenced, so nothing needs a third-party host or prefers-color-scheme.
+  but intentionally not referenced.
   House rule: keep the rows of each table on consecutive lines. A blank line inside a table makes
-  GitHub stop treating the block as raw HTML, which breaks the grid — use <br> or <p> for spacing.
+  GitHub stop treating the block as raw HTML, which breaks the grid — use br or p for spacing.
 -->
 
 <h1 align="center">Kamy Ewang</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=4BD652&center=true&vCenter=true&width=680&height=45&repeat=false&lines=React+%C2%B7+Next.js+%C2%B7+Python+%C2%B7+Flask+%C2%B7+Node.js;Learning+to+build+things+that+last;Full-stack+engineer+building+AI-powered+products" alt="Full-stack engineer building AI-powered products — React · Next.js · Python · Flask · Node.js · Learning to build things that last" width="680" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=4BD652&center=true&vCenter=true&width=680&height=45&repeat=false&lines=React+%C2%B7+Next.js+%C2%B7+Python+%C2%B7+Flask+%C2%B7+Node.js;Learning+to+build+things+that+last;Full-stack+engineer+building+AI-powered+products">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=1A7F37&center=true&vCenter=true&width=680&height=45&repeat=false&lines=React+%C2%B7+Next.js+%C2%B7+Python+%C2%B7+Flask+%C2%B7+Node.js;Learning+to+build+things+that+last;Full-stack+engineer+building+AI-powered+products">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=4BD652&center=true&vCenter=true&width=680&height=45&repeat=false&lines=React+%C2%B7+Next.js+%C2%B7+Python+%C2%B7+Flask+%C2%B7+Node.js;Learning+to+build+things+that+last;Full-stack+engineer+building+AI-powered+products" alt="Full-stack engineer building AI-powered products — React · Next.js · Python · Flask · Node.js · Learning to build things that last" width="680" />
+  </picture>
 </p>
 
 <p align="center">
@@ -136,15 +145,27 @@
 <table width="100%">
 <tr>
 <td colspan="2" align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kamyCodes&theme=github_dark&bg_color=0d1117&title_color=4bd652&text_color=c9d1d9&icon_color=4bd652&border_color=2e343b">
+<source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kamyCodes&theme=github&bg_color=ffffff&title_color=1a7f37&text_color=24292f&icon_color=1a7f37&border_color=d0d7de">
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kamyCodes&theme=github_dark&bg_color=0d1117&title_color=4bd652&text_color=c9d1d9&icon_color=4bd652&border_color=2e343b" alt="kamyCodes contribution summary" width="100%" />
+</picture>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=kamyCodes&hide_border=true&background=0D1117&stroke=4BD652&ring=4BD652&fire=4BD652&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=4BD652&sideLabels=FFFFFF&dates=8B949E">
+<source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=kamyCodes&hide_border=true&background=FFFFFF&stroke=1A7F37&ring=1A7F37&fire=1A7F37&currStreakNum=24292F&sideNums=24292F&currStreakLabel=1A7F37&sideLabels=24292F&dates=57606A">
 <img src="https://streak-stats.demolab.com?user=kamyCodes&hide_border=true&background=0D1117&stroke=4BD652&ring=4BD652&fire=4BD652&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=4BD652&sideLabels=FFFFFF&dates=8B949E" alt="kamyCodes contribution streak" width="100%" />
+</picture>
 </td>
 <td width="50%" align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kamyCodes&theme=github_dark&bg_color=0d1117&title_color=4bd652&text_color=c9d1d9&icon_color=4bd652&border_color=2e343b">
+<source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kamyCodes&theme=github&bg_color=ffffff&title_color=1a7f37&text_color=24292f&icon_color=1a7f37&border_color=d0d7de">
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kamyCodes&theme=github_dark&bg_color=0d1117&title_color=4bd652&text_color=c9d1d9&icon_color=4bd652&border_color=2e343b" alt="kamyCodes repositories per language" width="100%" />
+</picture>
 </td>
 </tr>
 </table>
